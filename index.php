@@ -52,6 +52,69 @@ require_once 'inc/configuracao.php';
                 </div>
             </div>
         </section>
+        <section class="services">
+            <div class="container">
+                <h2>Com este serviço você:</h2>
+                <div class="services-content">
+                    <div class="service-item">
+                        <div class="service-icon">
+                            <img src="assets/img/iconeServico.png" alt="Serviço 2">
+                        </div>
+                        <div class="service-text">
+                            <h3>Serviço 2</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde doloribus amet impedit. Cumque eligendi, dolorem suscipit fugiat minima laudantium iste quae tempora repellendus sit consectetur qui in doloribus temporibus incidunt!</p>
+                        </div>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-icon">
+                            <img src="assets/img/iconeServico.png" alt="Serviço 2">
+                        </div>
+                        <div class="service-text">
+                            <h3>Serviço 2</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde doloribus amet impedit. Cumque eligendi, dolorem suscipit fugiat minima laudantium iste quae tempora repellendus sit consectetur qui in doloribus temporibus incidunt!</p>
+                        </div>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-icon">
+                            <img src="assets/img/iconeServico.png" alt="Serviço 2">
+                        </div>
+                        <div class="service-text">
+                            <h3>Serviço 2</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde doloribus amet impedit. Cumque eligendi, dolorem suscipit fugiat minima laudantium iste quae tempora repellendus sit consectetur qui in doloribus temporibus incidunt!</p>
+                        </div>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-icon">
+                            <img src="assets/img/iconeServico.png" alt="Serviço 2">
+                        </div>
+                        <div class="service-text">
+                            <h3>Serviço 2</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde doloribus amet impedit. Cumque eligendi, dolorem suscipit fugiat minima laudantium iste quae tempora repellendus sit consectetur qui in doloribus temporibus incidunt!</p>
+                        </div>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-icon">
+                            <img src="assets/img/iconeServico.png" alt="Serviço 2">
+                        </div>
+                        <div class="service-text">
+                            <h3>Serviço 2</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde doloribus amet impedit. Cumque eligendi, dolorem suscipit fugiat minima laudantium iste quae tempora repellendus sit consectetur qui in doloribus temporibus incidunt!</p>
+                        </div>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-icon">
+                            <img src="assets/img/iconeServico.png" alt="Serviço 2">
+                        </div>
+                        <div class="service-text">
+                            <h3>Serviço 2</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde doloribus amet impedit. Cumque eligendi, dolorem suscipit fugiat minima laudantium iste quae tempora repellendus sit consectetur qui in doloribus temporibus incidunt!</p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+
+        </section>
     </main>
     <footer></footer>
 </body>
