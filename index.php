@@ -41,7 +41,17 @@ require_once 'inc/configuracao.php';
                 </form>
             </div>
         </section>
-        
+        <section class="about">
+            <div class="container">
+                <div>
+                    <img src="assets/img/pessoas.jpg" alt="Pessoas">
+                </div>
+                <div class="about-content">
+                    <h2>Quem Somos</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde doloribus amet impedit. Cumque eligendi, dolorem suscipit fugiat minima laudantium iste quae tempora repellendus sit consectetur qui in doloribus temporibus incidunt, Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde doloribus amet impedit. Cumque eligendiLorem ipsum dolor sit amet consectetur adipisicing elit. Unde doloribus amet impedit. Cumque eligendi.</p>
+                </div>
+            </div>
+        </section>
     </main>
     <footer></footer>
 </body>
