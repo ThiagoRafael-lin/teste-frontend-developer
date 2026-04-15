@@ -16,8 +16,8 @@ require_once 'inc/configuracao.php';
                 <p>LogoTipo</p>
                 <!-- <img src="" alt=""> -->
             </div>
-            <div class="contact">
-                <span class="contact-number">
+            <div class="phone">
+                <span class="phone-number">
                     (48) 99999-9999
                 </span>
             </div>
@@ -61,7 +61,7 @@ require_once 'inc/configuracao.php';
                             <img src="assets/img/iconeServico.png" alt="Serviço 2">
                         </div>
                         <div class="service-text">
-                            <h3>Serviço 2</h3>
+                            <h3>Benefico do serviço</h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde doloribus amet impedit. Cumque eligendi, dolorem suscipit fugiat minima laudantium iste quae tempora repellendus sit consectetur qui in doloribus temporibus incidunt!</p>
                         </div>
                     </div>
@@ -70,7 +70,7 @@ require_once 'inc/configuracao.php';
                             <img src="assets/img/iconeServico.png" alt="Serviço 2">
                         </div>
                         <div class="service-text">
-                            <h3>Serviço 2</h3>
+                            <h3>Benefico do serviço</h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde doloribus amet impedit. Cumque eligendi, dolorem suscipit fugiat minima laudantium iste quae tempora repellendus sit consectetur qui in doloribus temporibus incidunt!</p>
                         </div>
                     </div>
@@ -79,7 +79,7 @@ require_once 'inc/configuracao.php';
                             <img src="assets/img/iconeServico.png" alt="Serviço 2">
                         </div>
                         <div class="service-text">
-                            <h3>Serviço 2</h3>
+                            <h3>Benefico do serviço</h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde doloribus amet impedit. Cumque eligendi, dolorem suscipit fugiat minima laudantium iste quae tempora repellendus sit consectetur qui in doloribus temporibus incidunt!</p>
                         </div>
                     </div>
@@ -88,7 +88,7 @@ require_once 'inc/configuracao.php';
                             <img src="assets/img/iconeServico.png" alt="Serviço 2">
                         </div>
                         <div class="service-text">
-                            <h3>Serviço 2</h3>
+                            <h3>Benefico do serviço</h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde doloribus amet impedit. Cumque eligendi, dolorem suscipit fugiat minima laudantium iste quae tempora repellendus sit consectetur qui in doloribus temporibus incidunt!</p>
                         </div>
                     </div>
@@ -97,7 +97,7 @@ require_once 'inc/configuracao.php';
                             <img src="assets/img/iconeServico.png" alt="Serviço 2">
                         </div>
                         <div class="service-text">
-                            <h3>Serviço 2</h3>
+                            <h3>Benefico do serviço</h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde doloribus amet impedit. Cumque eligendi, dolorem suscipit fugiat minima laudantium iste quae tempora repellendus sit consectetur qui in doloribus temporibus incidunt!</p>
                         </div>
                     </div>
@@ -106,16 +106,49 @@ require_once 'inc/configuracao.php';
                             <img src="assets/img/iconeServico.png" alt="Serviço 2">
                         </div>
                         <div class="service-text">
-                            <h3>Serviço 2</h3>
+                            <h3>Benefico do serviço</h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde doloribus amet impedit. Cumque eligendi, dolorem suscipit fugiat minima laudantium iste quae tempora repellendus sit consectetur qui in doloribus temporibus incidunt!</p>
                         </div>
                     </div>
-                    
                 </div>
             </div>
-
+            <button type="submit" class="services-button">Chamada para ação</button>
         </section>
     </main>
-    <footer></footer>
+    <section class="questions">
+        <div class="container">
+            <h2>Perguntas Frequentes</h2>
+            <div class="question-item">
+                <p>Quando vou começar a ver os resultados da minha campanha?</p>
+            </div>
+            <div class="question-item">
+                <p>Quando vou começar a ver os resultados da minha campanha?</p>
+            </div>
+            <div class="question-item">
+                <p>Quando vou começar a ver os resultados da minha campanha?</p>
+            </div>
+            <div class="question-item">
+                <p>Quando vou começar a ver os resultados da minha campanha?</p>
+            </div>
+            <div class="question-item">
+                <p>Quando vou começar a ver os resultados da minha campanha?</p>
+            </div>
+        </div>
+    </section>
+    <section class="contact">
+           <div class="contact-content">
+                    <h2>Faça uma <br> chamada final</h2>
+                    <p>Isso é uma chamada para ação final. Chegou até <br> aqui e ainda não cadastrou? Aproveite...</p>
+            </div>
+            <div class="contact-callToAction">
+                <p class="contact-description">Descrição chamando para uma ultima ação. Converse com nossa equipe sem compromisso. não perca a chance de...</p>
+                <button>Chamada para ação</button>
+                <p class="contact-confirmation">Nossos especialistas vão entrar em contato com você ainda hoje.</p>
+            </div>
+    </section>
+    <footer class="footer">
+            <span>Nome da emrpesa © Todos os direitos reservados - 2026</span>
+            <span>CNPJ 99.999.999 - 0009-99º TERMOS DE USO</span>
+    </footer>
 </body>
 </html>
