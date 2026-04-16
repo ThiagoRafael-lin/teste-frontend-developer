@@ -1,5 +1,7 @@
 # 🚀 Minha Solução - Desafio Ellos Design
 
+![Preview do Projeto](./preview.png)
+
 Este repositório contém a minha resolução para o teste técnico de Desenvolvimento Fullstack. Implementei uma landing page responsiva com integração completa de banco de dados para captura de leads.
 
 ---
