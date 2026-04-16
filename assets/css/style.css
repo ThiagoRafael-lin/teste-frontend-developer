@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
@@ -58,6 +62,13 @@ button:active {
   top: 0;
   z-index: 100;
 }
+.header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  padding: 16px 20px;
+}
 .header .logo {
   display: flex;
   align-items: center;
@@ -66,12 +77,55 @@ button:active {
   color: white;
   letter-spacing: -0.5px;
 }
+.header .logo img {
+  height: 40px;
+  width: auto;
+}
+.header nav {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  justify-content: center;
+}
+.header nav ul {
+  display: flex;
+  list-style: none;
+  gap: 40px;
+  margin: 0;
+  padding: 0;
+}
+.header nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 500;
+  position: relative;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  padding: 8px 0;
+}
+.header nav ul li a::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: linear-gradient(90deg, #00E0FF, rgba(0, 224, 255, 0));
+  transition: width all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.header nav ul li a:hover {
+  opacity: 0.9;
+}
+.header nav ul li a:hover::after {
+  width: 100%;
+}
 .header .phone {
   background-color: rgba(255, 255, 255, 0.95);
   padding: 12px 28px;
   border: 2px solid rgba(255, 255, 255, 0.3);
   border-radius: 25px;
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  white-space: nowrap;
 }
 .header .phone:hover {
   background-color: white;
@@ -193,6 +247,42 @@ button:active {
   opacity: 0.95;
 }
 
+.form-message {
+  margin-top: 0;
+  padding: 14px 16px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: opacity 0.6s cubic-bezier(0.4, 0, 0.2, 1), max-height 0.6s cubic-bezier(0.4, 0, 0.2, 1), margin-top 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+  display: none;
+}
+
+.form-message p {
+  margin: 0;
+}
+
+.form-message.show {
+  opacity: 1;
+  max-height: 150px;
+  margin-top: 16px;
+  display: block;
+}
+
+.success-message {
+  background-color: #DCF5E9;
+  color: #0A6B3D;
+  border: 1px solid #A8E6D0;
+}
+
+.error-message {
+  background-color: #FDE5E7;
+  color: #8B2C2C;
+  border: 1px solid #F5B8BD;
+}
+
 .about {
   display: flex;
   padding: 80px 0;
@@ -236,6 +326,10 @@ button:active {
   font-size: 16px;
   line-height: 1.8;
   color: #777;
+}
+
+#about {
+  scroll-margin-top: 100px;
 }
 
 .services {
@@ -316,6 +410,10 @@ button:active {
   font-size: 15px;
 }
 
+#services {
+  scroll-margin-top: 100px;
+}
+
 .questions {
   padding: 80px 20px;
   background-color: white;
@@ -390,6 +488,10 @@ button:active {
   border-color: #6C63FF;
   background-color: rgba(108, 99, 255, 0.05);
   transform: translateX(4px);
+}
+
+#questions {
+  scroll-margin-top: 100px;
 }
 
 .contact {

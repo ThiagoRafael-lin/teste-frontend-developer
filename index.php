@@ -13,8 +13,17 @@ require_once 'inc/configuracao.php';
     <header id="header" class="header">
         <div class="container">
             <div class="logo">
-                <img src="assets/img/logo.svg" alt="Ellos Design Logo">
+                <a href="#">
+                    <img src="assets/img/logo.svg" alt="Ellos Design Logo">
+                </a>
             </div>
+            <nav>
+                <ul>
+                    <li><a id="about-header" href="#about">Sobre</a></li>
+                    <li><a id="services-header" href="#services">Serviços</a></li>
+                    <li><a id="questions-header" href="#questions">Perguntas Frequentes</a></li>
+                </ul>
+            </nav>
             <div class="phone">
                 <span class="phone-number">
                     (11) 96129-9980
@@ -30,17 +39,23 @@ require_once 'inc/configuracao.php';
                     <p>Na Ellos Design, criamos soluções visuais que não apenas impressionam, mas conectam sua marca com os clientes de forma profunda e autêntica. Desde identidade visual até experiências digitais, levamos seu negócio para o próximo nível.</p>
                 </div>
 
-                <form class="contact-form" action="">
+                <form class="contact-form" id="contactForm">
                     <span>Comece agora mesmo</span>
-                    <input type="text" id="name" name="name" placeholder="Seu nome">
-                    <input type="email" id="email" name="email" placeholder="Seu e-mail">
-                    <input type="text" id="telephone" name="telephone" placeholder="Seu telefone">
-                    <textarea class="contact-message" name="message" id="message" placeholder="Conte-nos sobre seu projeto" wrap="soft"></textarea>
+                    <input type="text" id="name" name="name" placeholder="Seu nome" required>
+                    <input type="email" id="email" name="email" placeholder="Seu e-mail" required>
+                    <input type="text" id="telephone" name="telephone" placeholder="Seu telefone" required>
+                    <textarea class="contact-message" name="message" id="message" placeholder="Conte-nos sobre seu projeto" wrap="soft" required></textarea>
                     <button type="submit">Solicitar Orçamento</button>
+                    <div class="form-message success-message" id="successMessage">
+                        <p>✓ Obrigado pela sua solicitação! Recebemos com sucesso sua mensagem. Nossa equipe entrará em contato em breve.</p>
+                    </div>
+                    <div class="form-message error-message" id="errorMessage">
+                        <p>✗ Por favor, preencha todos os campos corretamente.</p>
+                    </div>
                 </form>
             </div>
         </section>
-        <section class="about">
+        <section class="about" id="about">
             <div class="container">
                 <div>
                     <img src="assets/img/about-team.svg" alt="Equipe Ellos Design">
@@ -52,7 +67,7 @@ require_once 'inc/configuracao.php';
                 </div>
             </div>
         </section>
-        <section class="services">
+        <section class="services" id="services">
             <div class="container">
                 <h2>Serviços que impulsionam seu negócio</h2>
                 <div class="services-content">
@@ -112,10 +127,10 @@ require_once 'inc/configuracao.php';
                     </div>
                 </div>
             </div>
-            <button id="services-button" type="submit" class="services-button">Conhecer todos os serviços</button>
+            <button id="services-button" class="services-button">Conhecer todos os serviços</button>
         </section>
     </main>
-    <section class="questions">
+    <section class="questions" id="questions">
     <div class="container">
         <h2>Perguntas Frequentes</h2>
         <div class="question-item">
