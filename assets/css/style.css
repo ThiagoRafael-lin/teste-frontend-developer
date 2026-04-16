@@ -66,11 +66,6 @@ button:active {
   color: white;
   letter-spacing: -0.5px;
 }
-
-.header .logo img {
-  height: 40px;
-  width: auto;
-}
 .header .phone {
   background-color: rgba(255, 255, 255, 0.95);
   padding: 12px 28px;
@@ -130,6 +125,10 @@ button:active {
   font-size: 16px;
   line-height: 1.8;
   opacity: 0.95;
+}
+
+#hero {
+  scroll-margin-top: 100px;
 }
 
 .contact-form {
@@ -286,9 +285,10 @@ button:active {
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
 }
 .services .service-item img {
-  max-width: 60px;
-  min-width: 60px;
-  height: 60px;
+  max-width: 50px;
+  min-width: 50px;
+  height: 50px;
+  filter: brightness(0) saturate(100%) invert(14%) sepia(81%) saturate(8395%) hue-rotate(265deg);
 }
 .services .service-item p {
   font-size: 14px;
@@ -328,29 +328,65 @@ button:active {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+  text-align: center;
 }
 .questions .container {
+  display: flex;
   flex-direction: column;
   align-items: center;
   gap: 16px;
   max-width: 800px;
+  margin: 0 auto;
 }
 .questions .question-item {
   border: 2px solid #E5E7EB;
-  padding: 20px 24px;
+  padding: 5px 24px;
   border-radius: 12px;
   width: 100%;
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   cursor: pointer;
   background-color: #FAFBFC;
+  overflow: hidden;
 }
-.questions .question-item p {
+.questions .question-item .question-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.questions .question-item .question-header p {
   font-size: 15px;
   font-weight: 500;
   color: #1A1A1A;
   margin: 0;
 }
-.questions .question-item:hover {
+.questions .question-item .question-header .icon {
+  font-size: 20px;
+  color: #6C63FF;
+  transition: transform 0.3s ease;
+}
+.questions .question-item .answer-wrapper {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 0.3s ease-out, margin-top 0.3s ease;
+}
+.questions .question-item .answer-wrapper .answer-content {
+  min-height: 0;
+  font-size: 14px;
+  color: #4d4d4d;
+  line-height: 1.6;
+}
+.questions .question-item.active {
+  border-color: #6C63FF;
+  background-color: white;
+}
+.questions .question-item.active .icon {
+  transform: rotate(45deg);
+}
+.questions .question-item.active .answer-wrapper {
+  grid-template-rows: 1fr;
+  margin-top: 15px;
+}
+.questions .question-item:hover:not(.active) {
   border-color: #6C63FF;
   background-color: rgba(108, 99, 255, 0.05);
   transform: translateX(4px);

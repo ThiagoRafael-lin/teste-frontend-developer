@@ -10,7 +10,7 @@ require_once 'inc/configuracao.php';
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <header class="header">
+    <header id="header" class="header">
         <div class="container">
             <div class="logo">
                 <img src="assets/img/logo.svg" alt="Ellos Design Logo">
@@ -23,7 +23,7 @@ require_once 'inc/configuracao.php';
         </div>
     </header>
     <main>
-        <section class="hero">
+        <section id="hero" class="hero">
             <div class="container">
                 <div class="hero-content">
                     <h1>Transforme sua marca em uma experiência memorável</h1>
@@ -112,29 +112,69 @@ require_once 'inc/configuracao.php';
                     </div>
                 </div>
             </div>
-            <button type="submit" class="services-button">Conhecer todos os serviços</button>
+            <button id="services-button" type="submit" class="services-button">Conhecer todos os serviços</button>
         </section>
     </main>
     <section class="questions">
-        <div class="container">
-            <h2>Perguntas Frequentes</h2>
-            <div class="question-item">
+    <div class="container">
+        <h2>Perguntas Frequentes</h2>
+        <div class="question-item">
+            <div class="question-header">
                 <p>Quanto tempo leva para completar um projeto de design?</p>
+                <span class="icon">+</span>
             </div>
-            <div class="question-item">
-                <p>Quais são as etapas do processo de criação de uma identidade visual?</p>
-            </div>
-            <div class="question-item">
-                <p>Vocês oferecem suporte e alterações após o projeto ser entregue?</p>
-            </div>
-            <div class="question-item">
-                <p>Como funciona o processo de consultoria e quanto custa?</p>
-            </div>
-            <div class="question-item">
-                <p>Posso ter acesso aos arquivos originais e fontes utilizadas?</p>
+            <div class="answer-wrapper">
+                <div class="answer-content">
+                    O tempo varia conforme a complexidade. Um logo/identidade visual leva 2 a 3 semanas, um website entre 4 a 6 semanas, e branding completo de 8 a 12 semanas. Esses prazos dependem da agilidade nos feedbacks.
+                </div>
             </div>
         </div>
-    </section>
+        <div class="question-item">
+            <div class="question-header">
+                <p>Qual é o valor de um projeto de design?</p>
+                <span class="icon">+</span>
+            </div>
+            <div class="answer-wrapper">
+                <div class="answer-content">
+                    Os valores são personalizados conforme o escopo. Realizamos uma consultoria inicial gratuita para entender sua necessidade e disponibilizamos um orçamento detalhado. Oferecemos pacotes desde pequenos projetos até soluções corporativas.
+                </div>
+            </div>
+        </div>
+        <div class="question-item">
+            <div class="question-header">
+                <p>Vocês fazem redesign de marcas existentes?</p>
+                <span class="icon">+</span>
+            </div>
+            <div class="answer-wrapper">
+                <div class="answer-content">
+                    Sim! Especializamos em renovação de identidades visuais. Analisamos sua marca atual, mercado e objetivos para criar um redesign que mantenha sua essência mas a modernize e reposicione no mercado.
+                </div>
+            </div>
+        </div>
+        <div class="question-item">
+            <div class="question-header">
+                <p>Quais são as formas de pagamento e prazo?</p>
+                <span class="icon">+</span>
+            </div>
+            <div class="answer-wrapper">
+                <div class="answer-content">
+                    Aceitamos transferência bancária, cartão de crédito e PIX. Geralmente solicitamos 50% de adiantamento no início do projeto e 50% na entrega. Projetos maiores podem parcelar em até 3x.
+                </div>
+            </div>
+        </div>
+        <div class="question-item">
+            <div class="question-header">
+                <p>Posso solicitar alterações após a entrega?</p>
+                <span class="icon">+</span>
+            </div>
+            <div class="answer-wrapper">
+                <div class="answer-content">
+                    Sim! Incluímos 2 rodadas de revisões no pacote. Alterações adicionais têm um custo à parte. Oferecemos também planos de suporte contínuo para empresas que precisam de ajustes frequentes em seus materiais.
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
     <section class="contact">
            <div class="contact-content">
                     <h2>Pronto para <br> elevar sua marca?</h2>
@@ -142,7 +182,7 @@ require_once 'inc/configuracao.php';
             </div>
             <div class="contact-callToAction">
                 <p class="contact-description">Agende uma consulta gratuita com nossos especialistas e receba uma análise personalizada para sua marca.</p>
-                <button>Agendar Consulta</button>
+                <button id="schedule-consultation">Agendar Consulta</button>
                 <p class="contact-confirmation">Responderemos em até 24 horas com uma proposta personalizada.</p>
             </div>
     </section>
@@ -150,5 +190,6 @@ require_once 'inc/configuracao.php';
             <span>Ellos Design © 2026 - Todos os direitos reservados</span>
             <span>CNPJ: 12.345.678/0001-99 | Termos de Uso | Política de Privacidade</span>
     </footer>
+    <script src="assets/js/main.js"></script>
 </body>
 </html>
