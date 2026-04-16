@@ -15,14 +15,12 @@ if (contactForm) {
         const isValidEmail = emailRegex.test(email);
 
         if (name && isValidEmail && telephone && message) {
-            successMessage.classList.add('show');
-            errorMessage.classList.remove('show');
+    successMessage.classList.add('show');
+    errorMessage.classList.remove('show');
 
-            contactForm.reset();
-
-            setTimeout(() => {
-                successMessage.classList.remove('show');
-            }, 5000);
+    setTimeout(() => {
+        contactForm.submit();
+    }, 1000);
         } else {
             errorMessage.classList.add('show');
             successMessage.classList.remove('show');

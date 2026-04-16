@@ -39,7 +39,7 @@ require_once 'inc/configuracao.php';
                     <p>Na Ellos Design, criamos soluções visuais que não apenas impressionam, mas conectam sua marca com os clientes de forma profunda e autêntica. Desde identidade visual até experiências digitais, levamos seu negócio para o próximo nível.</p>
                 </div>
 
-                <form class="contact-form" id="contactForm">
+                <form class="contact-form" id="contactForm" action="enviar.php" method="POST">
                     <span>Comece agora mesmo</span>
                     <input type="text" id="name" name="name" placeholder="Seu nome" required>
                     <input type="email" id="email" name="email" placeholder="Seu e-mail" required>
