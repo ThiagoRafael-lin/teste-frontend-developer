@@ -1,3 +1,31 @@
+# 🚀 Minha Solução - Desafio Ellos Design
+
+Este repositório contém a minha resolução para o teste técnico de Desenvolvimento Fullstack. Implementei uma landing page responsiva com integração completa de banco de dados para captura de leads.
+
+---
+
+## 🛠️ O que foi desenvolvido
+* **Landing Page:** Totalmente responsiva e estilizada com SCSS.
+* **Validação Frontend:** JavaScript puro para validar campos e feedback visual.
+* **Backend:** Sistema em PHP utilizando **PDO** para garantir uma conexão segura com o MySQL.
+* **Banco de Dados:** Estrutura organizada para armazenar name, email, telephone e message.
+
+## ⚙️ Como executar este projeto localmente
+
+### Pré-requisitos
+* Ter o **XAMPP** (ou similar) instalado e rodando (Apache e MySQL).
+
+### Passo a Passo
+1. Clone este repositório para a pasta `htdocs` do seu XAMPP.
+2. Acesse o **phpMyAdmin** e crie um banco de dados chamado `db_ellos`.
+3. Importe o arquivo `db.sql` que está na raiz do projeto para criar a tabela necessária.
+4. No navegador, acesse: `http://localhost/teste-frontend-developer/index.php`.
+
+---
+
+# 📝 Sobre o Desafio (Original)
+> Abaixo seguem as instruções originais do teste técnico fornecido pela empresa.
+
 # Teste para estágio Frontend e Full-Stack
 
 ## Sobre a Ellos Design
