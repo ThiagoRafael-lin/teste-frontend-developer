@@ -1,13 +1,6 @@
 <?php
 
-$host = 'localhost';
-$db   = 'db_ellos'; 
-$user = 'root';     
-$pass = '';         
-
-try {
-    $pdo = new PDO("mysql:host=$host;dbname=$db;charset=utf8", $user, $pass);
-    $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-} catch (PDOException $e) {
-    die("Erro na conexão com o banco de dados: " . $e->getMessage());
-}
+$host = 'sql301.infinityfree.com';
+$db   = 'if0_41689193_db_ellos';
+$user = 'if0_41689193';
+$pass = 'thiago20055002';
