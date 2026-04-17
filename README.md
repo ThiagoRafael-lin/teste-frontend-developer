@@ -6,6 +6,10 @@ Este repositório contém a minha resolução para o teste técnico de Desenvolv
 
 ---
 
+## 🔗 Link do Projeto
+O projeto pode ser acessado online através do link abaixo:
+👉 [http://ellos-design-thiago.infinityfreeapp.com/](http://ellos-design-thiago.infinityfreeapp.com/)
+
 ## 🛠️ O que foi desenvolvido
 * **Landing Page:** Totalmente responsiva e estilizada com SCSS.
 * **Validação Frontend:** JavaScript puro para validar campos e feedback visual.
